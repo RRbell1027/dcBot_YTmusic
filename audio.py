@@ -6,7 +6,7 @@ import yt_dlp as ytdl
 
 class Download:
 
-    save_path = 'D:\\jupyter-notebook\\dcBot\\buffers'
+    save_path = f'<your buffer>'
 
     def __init__(self, url):
         self.url = url
