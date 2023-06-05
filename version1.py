@@ -117,5 +117,5 @@ def push(ctx, path):
 
 if __name__ == '__main__':
     play_Queues = {}
-    token = 'MTAzODA2ODE2MDg0MDA3MzMxNg.G_QHKV.qjihhfk2rjI6YypDJ_Kq1TPs93QLY9HlXYjs_A'
+    token = '<your token>'
     client.run(token)
