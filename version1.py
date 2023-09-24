@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 from discord import FFmpegPCMAudio , Intents
 
-intents = Intents.default()
+intents = Intents.all()
 intents.members = True
 
 client = commands.Bot(command_prefix='.', intents=intents)
@@ -117,5 +117,5 @@ def push(ctx, path):
 
 if __name__ == '__main__':
     play_Queues = {}
-    token = 'MTAzODA2ODE2MDg0MDA3MzMxNg.G_QHKV.qjihhfk2rjI6YypDJ_Kq1TPs93QLY9HlXYjs_A'
+    token = 'MTAzODA2ODE2MDg0MDA3MzMxNg.GIaduS.cQKkdw6gk-LyfxFgja7klAncGHEQdTKuEgVeoY'
     client.run(token)
